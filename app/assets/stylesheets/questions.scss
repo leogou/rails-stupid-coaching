@@ -1,17 +1,30 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$response_background: #f8fab8;
+$link_color: #21bf73;
+
 body {
   margin-left: 60px;
 }
 
 .cards {
-  margin-top: 60px;
+  margin-top: 40px;
   border-left: 4px solid grey;
   padding-left: 20px;
+  width: 800px;
 }
 
 .link {
-  margin-top: 60px;
+  margin-top: 200px;
   text-decoration: none;
+  font-weight: bold;
+  &:hover {
+    text-decoration: none;
+    color: $link_color;
+  }
+}
+
+#response {
+  background-color: $response_background;
 }
